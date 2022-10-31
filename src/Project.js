@@ -5,6 +5,7 @@ import Project2 from "./img/foodappproject.jpg";
 import Project3 from "./img/ecomappproject.jpg";
 import tictokapp from "./img/tictokapp.PNG";
 import wetherapp from "./img/wetherapp.PNG";
+import shyroom from "./img/shyroom.PNG";
 
 function Project() {
   return (
@@ -40,6 +41,36 @@ function Project() {
               </div>
             </div>
           </div>
+
+            {/* //hotel booking */}
+            <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon">
+                <img src={shyroom} alt="" className="project__img" />
+              </div>
+              <div className="service__meta">
+                <h1 className="service__text">
+                  BookMyRoom (Role- Full Stack developer)
+                </h1>
+                <p className="p project__text p__color">
+                  Description:-It is an online booking room booking
+                  system. It helps the user to view the room and details
+                  without going the location So it is time-free and cost-free
+                  as well. The technology is used ReactJS for the frontend
+                  and ExpressJS, NodeJS, for the backend and MongoDB for
+                  database storage
+                </p>
+                <br></br>
+                <a
+                  href="https://github.com/LernToGrow/BookMyRoom"
+                  className="project__btn"
+                >
+                  Github Code
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* //hotel booking  END*/}
           <div className="col__3">
             <div className="service__box pointer">
               <div className="icon">
@@ -120,12 +151,12 @@ function Project() {
                   Description:- This project aims to give clients of physical stores access to the benefits of internet buying. By leveraging the internet, it is possible to purchase goods from any location using HTML, CSS, and bootstrap-5 for the front end, Java and Servlet for the back end, and MySQL for the database.
                 </p>
                 <br></br>
-                {/* <a
+                <a
                   href="https://github.com/LernToGrow/E_commerce_app"
                   className="project__btn"
                 >
                    Github Code
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
